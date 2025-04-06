@@ -1,16 +1,17 @@
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
+import Mensagem from "./components/Mensagem";
+import Frase from "./components/Frase";
+import Botao from "./components/Botao";
+import MensagemClick from "./components/MensagemClick";
 
-export default function MyApp() {
-  return (
+function App(){
+  return(
     <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
+      <Mensagem nome = "Raphael" />
+      <Frase clima = "chuvoso" />
+      <Botao />
+      <MensagemClick />
     </div>
   );
 }
+
+export default App;
