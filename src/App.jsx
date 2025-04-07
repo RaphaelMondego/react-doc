@@ -7,6 +7,7 @@ import Input from "./components/Input";
 import Contador from "./components/Contador";
 import ImagemOculta from "./components/ImagemOculta";
 import Contagem from "./components/Contagem";
+import DesafioInputIdade from "./components/DesafioInputIdade";
 
 function App(){
   return(
@@ -20,6 +21,7 @@ function App(){
       <MostrarOcultar />
       <ImagemOculta />
       <Contagem />
+      <DesafioInputIdade />
     </div>
   );
 }
