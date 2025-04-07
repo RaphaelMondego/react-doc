@@ -6,6 +6,7 @@ import MostrarOcultar from "./components/MostrarOcultar";
 import Input from "./components/Input";
 import Contador from "./components/Contador";
 import ImagemOculta from "./components/ImagemOculta";
+import Contagem from "./components/Contagem";
 
 function App(){
   return(
@@ -18,6 +19,7 @@ function App(){
       <Input />
       <MostrarOcultar />
       <ImagemOculta />
+      <Contagem />
     </div>
   );
 }
