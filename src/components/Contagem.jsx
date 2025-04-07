@@ -3,9 +3,11 @@ import { useState } from "react";
 function Contagem(){
     const [contagem,setContagem] = useState(0);
 
-    function diminuir(){
-        setContagem(contagem- 1);
-    }
+    function diminuir() {
+        if (contador > 0) {
+          setContador(contador - 1);
+        }
+      }
 
     function aumentar(){
         setContagem(contagem + 1);
