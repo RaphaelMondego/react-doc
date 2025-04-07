@@ -1,25 +1,30 @@
 import { useState } from "react";
 
-function Contagem(){
-    const [contagem,setContagem] = useState(0);
+function Contador() {
+  const [contador, setContador] = useState(0);
 
-    function diminuir() {
-        if (contador > 0) {
-          setContador(contador - 1);
-        }
-      }
+  function aumentar() {
+    setContador(contador + 1);
+  }
 
-    function aumentar(){
-        setContagem(contagem + 1);
+  function diminuir() {
+    if (contador > 0) {
+      setContador(contador - 1);
     }
+  }
 
-    return(
-        <div>
-            <p>Você clicou {contagem} vezes.</p>
-            <button onClick={diminuir}>Diminua</button>
-            <button onClick={aumentar}>Aumente</button>
-        </div>
-    );
+  function zerar() {
+    setContador(0);
+  }
+
+  return (
+    <div>
+      <p>Você clicou {contador} {contador === 1 ? "vez" : "vezes"}</p>
+      <button onClick={aumentar}>Aumentar</button>
+      <button onClick={diminuir}>Diminuir</button>
+      <button onClick={zerar}>Zerar</button>
+    </div>
+  );
 }
 
-export default Contagem;
+export default Contador;
