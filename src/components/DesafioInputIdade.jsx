@@ -14,7 +14,7 @@ function Idade(){
             onChange={mudarIdade} // toda vez que digita no input, chama a função
             value={ano} />
             
-            <p>{ano && <p>Você tem {ano} anos de idade!</p>} {/*a mensagem só aparece quando a pessoa realmente digitar algo*/}
+            <p>{ano && <p>Você tem {ano} anos de idade!</p>} {/*a frase só aparece quando a pessoa realmente digitar algo*/}
             </p>
         </div>
     );
