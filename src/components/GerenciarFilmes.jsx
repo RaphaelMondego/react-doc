@@ -27,7 +27,7 @@ function GerenciarFilmes() {
         placeholder="Digite o nome do filme"
       />
 
-      <button onClick={adicionarFilme} disabled={novoFilme.trim() === ""}>
+      <button onClick={adicionarFilme} disabled={novoFilme.trim() === ""}> {/*disabled -> Evita que o botão funcione se o input estiver vazio*/}
         Adicionar Filme
       </button>
 
