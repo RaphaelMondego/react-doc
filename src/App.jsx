@@ -9,6 +9,9 @@ import ImagemOculta from "./components/ImagemOculta";
 import Contagem from "./components/Contagem";
 import DesafioInputIdade from "./components/DesafioInputIdade";
 import FormularioCadastro from "./components/FormularioCadastro";
+import Fruta from "./components/Fruta";
+import ListaFilmes from "./components/ListaFilmes";
+import GerenciarFilmes from "./components/GerenciarFilmes";
 
 function App(){
   return(
@@ -24,6 +27,9 @@ function App(){
       <Contagem />
       <DesafioInputIdade />
       <FormularioCadastro />
+      <Fruta />
+      <ListaFilmes />
+      <GerenciarFilmes />
     </div>
   );
 }
