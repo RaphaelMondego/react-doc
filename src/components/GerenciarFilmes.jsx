@@ -7,9 +7,10 @@ function GerenciarFilmes() {
   // Estado para armazenar a lista de filmes
   const [filmes, setFilmes] = useState([]);
 
+  // .trim() é um método que remove os espaços em branco no inicio e final de uma String.
   // Função que adiciona o filme na lista
   function adicionarFilme() {
-    if (novoFilme.trim() !== "") {
+    if (novoFilme.trim() !== "") { // Se novoFilme for diferente de vazio... 
       setFilmes([...filmes, novoFilme]); // adiciona o novo filme no array
       setNovoFilme(""); // limpa o campo do input
     }
