@@ -12,6 +12,8 @@ import FormularioCadastro from "./components/FormularioCadastro";
 import Fruta from "./components/Fruta";
 import ListaFilmes from "./components/ListaFilmes";
 import GerenciarFilmes from "./components/GerenciarFilmes";
+import Times from "./components/Time";
+import MostrarIdade from "./components/MostrarIdade";
 
 function App(){
   return(
@@ -30,6 +32,8 @@ function App(){
       <Fruta />
       <ListaFilmes />
       <GerenciarFilmes />
+      <Times />
+      <MostrarIdade />
     </div>
   );
 }
