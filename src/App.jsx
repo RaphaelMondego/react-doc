@@ -16,6 +16,9 @@ import Times from "./components/Time";
 import MostrarIdade from "./components/MostrarIdade";
 import MudarTarefa from "./components/MostrarTarefa";
 import Relogio from "./components/Relogio";
+import MensagemTemporaria from "./components/MensagemTemporaria";
+import BotaoVisivel from "./components/BotaoVisivel";
+import Alerta from "./components/Alerta";
 
 function App(){
   return(
@@ -38,6 +41,9 @@ function App(){
       <MostrarIdade />
       <MudarTarefa />
       <Relogio />
+      <MensagemTemporaria />
+      <BotaoVisivel />
+      <Alerta />
     </div>
   );
 }
