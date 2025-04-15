@@ -15,6 +15,7 @@ import GerenciarFilmes from "./components/GerenciarFilmes";
 import Times from "./components/Time";
 import MostrarIdade from "./components/MostrarIdade";
 import MudarTarefa from "./components/MostrarTarefa";
+import Relogio from "./components/Relogio";
 
 function App(){
   return(
@@ -36,6 +37,7 @@ function App(){
       <Times />
       <MostrarIdade />
       <MudarTarefa />
+      <Relogio />
     </div>
   );
 }
