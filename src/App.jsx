@@ -19,6 +19,7 @@ import Relogio from "./components/Relogio";
 import MensagemTemporaria from "./components/MensagemTemporaria";
 import BotaoVisivel from "./components/BotaoVisivel";
 import Alerta from "./components/Alerta";
+import Saudacao from "./components/Saudacao";
 
 function App(){
   return(
@@ -44,6 +45,7 @@ function App(){
       <MensagemTemporaria />
       <BotaoVisivel />
       <Alerta />
+      <Saudacao nome = "Raphael"/>
     </div>
   );
 }
