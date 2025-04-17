@@ -20,6 +20,7 @@ import MensagemTemporaria from "./components/MensagemTemporaria";
 import BotaoVisivel from "./components/BotaoVisivel";
 import Alerta from "./components/Alerta";
 import Saudacao from "./components/Saudacao";
+import CarregarUsuarios from "./components/CarregarUsuarios";
 
 function App(){
   return(
@@ -46,6 +47,7 @@ function App(){
       <BotaoVisivel />
       <Alerta />
       <Saudacao nome = "Raphael"/>
+      <CarregarUsuarios />
     </div>
   );
 }
